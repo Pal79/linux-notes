@@ -11,6 +11,6 @@
 
 | Leírások |
 | :------- |
-| <a href=".contents/directory-structure.md">Könyvtárszerkezet</a> |
-| <a href=".contents/stock-management.md">Állománykezelés</a> |
+| [Könyvtárszerkezet](.contents/directory-structure.md) |
+| [Állománykezelés](.contents/stock-management.md) |
 
