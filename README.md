@@ -8,27 +8,9 @@
     Számomra fontos linux telepítések és beállítások gyűjteménye.
 </h3>
 <hr/>
-<table align="center">
-    <thead>
-        <tr>
-            <th>Leírások</th>
-            <th>Telepítések / Beállítások</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <a href=".contents/directory-structure.md">
-                    Könyvtárszerkezet
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href=".contents/stock-management.md">
-                    Állománykezelés
-                </a>
-            </td>
-        </tr>
-    </tbody>
-</table>
+
+| Leírások |
+| :------- |
+| <a href=".contents/directory-structure.md">Könyvtárszerkezet</a> |
+| <a href=".contents/stock-management.md">Állománykezelés</a> |
+
