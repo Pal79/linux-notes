@@ -8,7 +8,7 @@
     Számomra fontos linux telepítések és beállítások gyűjteménye.
 </h3>
 <hr/>
-<table>
+<table align="center">
     <thead>
         <tr>
             <th>Leírások</th>
