@@ -1,10 +1,11 @@
+<h1>Linux Jegyzetek</h1>
+<h2><img src=".pictures/linux-logo.png" width="128" alt="tux"/></h2>
+<h3>Számomra fontos linux telepítések és beállítások gyűjteménye.</h3>
 <table>
     <thead>
         <tr>
             <th>
-                <img src=".pictures/linux-logo.png" width="128" alt="tux"/>
             </th>
-            <th>Linux Jegyzetek</th>
         </tr>
     </thead>
 </table>
