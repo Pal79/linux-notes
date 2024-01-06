@@ -1,7 +1,7 @@
-<h1 align="center">
+<h1 style="text-align: center;color: darkorange;">
     Linux Jegyzetek
 </h1>
-<h2 align="center">
+<h2 style="text-align: center;">
     <img src=".pictures/linux-logo.png" width="128" alt="tux"/>
 </h2>
 
