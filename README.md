@@ -11,8 +11,8 @@
 <table>
     <thead>
         <tr>
-            <th>
-            </th>
+            <th>Leírások</th>
+            <th>Telepítések / Beállítások</th>
         </tr>
     </thead>
 </table>
