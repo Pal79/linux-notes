@@ -1,6 +1,6 @@
 <h1 align="center">Könyvtárszerkezet</h1>
 <hr/>
-<table>
+<table align="center">
     <thead>
         <tr>
             <th>könyvtár</th>
@@ -67,7 +67,7 @@
     </tbody>
     <tfoot>
         <tr>
-            <td colspan="2">
+            <td align="center" colspan="2">
                 <a href="../README.md">Vissza</a>
             </td>
         </tr>
