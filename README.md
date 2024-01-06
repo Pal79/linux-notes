@@ -1,4 +1,4 @@
-<h1 align="center" color="orange">
+<h1 align="center" style="color:orange;">
     Linux Jegyzetek
 </h1>
 <h2 align="center">
