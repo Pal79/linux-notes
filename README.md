@@ -15,4 +15,13 @@
             <th>Telepítések / Beállítások</th>
         </tr>
     </thead>
+    <tbody>
+        <tr>
+            <td>
+                <a href=".contents/directory-structure.md">
+                    Könyvtárszerkezet
+                </a>
+            </td>
+        </tr>
+    </tbody>
 </table>
