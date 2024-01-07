@@ -16,7 +16,7 @@
 	<tbody>
 		<tr>
 			<td>
-				<a href=".contents/directory-structure.md">Könyvtárszerkezet]</a>
+				<a href=".contents/directory-structure.md">Könyvtárszerkezet</a>
 			</td>
 		</tr>
 		<tr>
@@ -29,27 +29,101 @@
 
 ---
 
-| Telepítések |
-| :---------- |
-| [neofetch / screenfetch](.contents/neofetch-screenfetch.md) |
-| [swapfile](.contents/swapfile.md) |
-| [java](.contents/java.md) |
-| [python és python-pip](.contents/python.md) |
-| [unsnap és flatpak](.contents/unsnap-flatpak.md) |
-| [microsoft betűtípusok](.contents/ms-fonts.md) |
-| [google-chrome](.contents/google-chrome.md) |
-| [pycharm](.contents/pycharm.md) |
-| [eclipse](.contents/eclipse.md) |
-| [spring tool suite](.contents/spring-tool-suite.md) |
-| [visual studio code](.contents/visual-studio-code.md) |
+<table align="center">
+	<thead>
+		<tr>
+			<th>Telepítések</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<a href=".contents/neofetch-screenfetch.md">neofetch / screenfetch</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/swapfile.md">swapfile</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/java.md">java</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/python.md">python és python-pip</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/unsnap-flatpak.md">unsnap és flatpak</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/ms-fonts.md">microsoft betűtípusok</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/google-chrome.md">google-chrome</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/pycharm.md">pycharm</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/eclipse.md">eclipse</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/spring-tool-suite.md">spring tool suite</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/visual-studio-code.md">visual studio code</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ---
 
-| Beállítások |
-| :---------- |
-| [renszerhangok kikapcsolása](.contents/beep-off.md) |
-| [ssh kapcsolat létrehozása a github-al](.contents/ssh-git.md) |
-| [Numlock automatikus bekapcsolása](.contents/numlock.md) |
-| [Érintőkijelző beállítás](.contents/touchscreen.md) |
+<table>
+	<thead>
+		<tr>
+			<th>Beállítások</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<a href=".contents/beep-off.md">renszerhangok kikapcsolása</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/ssh-git.md">ssh kapcsolat létrehozása a github-al</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/numlock.md">Numlock automatikus bekapcsolása</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href=".contents/touchscreen.md">Érintőkijelző beállítás</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ---
