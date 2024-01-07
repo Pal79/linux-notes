@@ -16,7 +16,7 @@ MOZ_USE_XINPUT2 DEFAULT=1
 
 > mentés majd újraindítás
 
-> 
+> vagy
 
 > ha így sem működik, akkor nyisd meg a vebböngésződ és írd be:
 
