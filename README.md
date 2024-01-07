@@ -16,12 +16,12 @@
 	<tbody>
 		<tr>
 			<td>
-				[Könyvtárszerkezet](.contents/directory-structure.md)
+				<a href=".contents/directory-structure.md">Könyvtárszerkezet</a>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				[Állománykezelés](.contents/stock-management.md)
+				<a href=".contents/stock-management.md">Állománykezelés</a>
 			</td>
 		</tr>
 	</tbody>
