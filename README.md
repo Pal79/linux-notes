@@ -96,7 +96,7 @@
 
 ---
 
-<table>
+<table align="center">
 	<thead>
 		<tr>
 			<th>Beállítások</th>
