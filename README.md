@@ -18,8 +18,6 @@
 			<td>
 				<a href=".contents/directory-structure.md">Könyvtárszerkezet</a>
 			</td>
-		</tr>
-		<tr>
 			<td>
 				<a href=".contents/stock-management.md">Állománykezelés</a>
 			</td>
