@@ -7,25 +7,10 @@
 
 ---
 
-<talbe align="center">
-	<thead>
-		<tr>
-			<th>Leírások</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>
-				<a href=".contents/directory-structure.md">Könyvtárszerkezet</a>
-			</td>
-			<td>
-				<a href=".contents/stock-management.md">Állománykezelés</a>
-			</td>
-		</tr>
-	</tbody>
-</table>
-
-</span>
+| Leírások |
+| :------- |
+| [Könyvtárszerkezet](.contents/directory-structure.md) |
+| [Állománykezelés](.contents/stock-management.md) |
 
 ---
 
