@@ -34,5 +34,6 @@
 | :---------- |
 | [renszerhangok kikapcsolása](.contents/beep-off.md) |
 | [ssh kapcsolat létrehozása a github-al](.contents/ssh-git.md) |
+| [Numlock automatikus bekapcsolása](.contents/numlock.md) |
 
 ---
