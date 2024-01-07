@@ -7,10 +7,14 @@
 
 ---
 
+<span align="center">
+
 | Leírások |
 | :------- |
 | [Könyvtárszerkezet](.contents/directory-structure.md) |
 | [Állománykezelés](.contents/stock-management.md) |
+
+</span>
 
 ---
 
