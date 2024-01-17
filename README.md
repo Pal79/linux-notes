@@ -24,6 +24,11 @@
 				<a href=".contents/stock-management.md">Állománykezelés</a>
 			</td>
 		</tr>
+		<tr>
+			<td>
+				<a href=".contents/pacman.md">Pacman csomagkezelő (arch linux)</a>
+			</td>
+		</tr>
 	</tbody>
 </table>
 
