@@ -23,7 +23,13 @@
 | csomagok intergritásának ellenőrzése | sudo pacman -Qk steam |  |
 | csomagok intergritásának részletesebb ellenőrzése | sudo pacman -Qkk steam |  |
 
+---
+
 # Speciális kapcsolók
 
 | Művelet | Parancs | Leírás |
 | :------ | :------ | :----- |
+
+---
+
+[Vissza](../README.md)
