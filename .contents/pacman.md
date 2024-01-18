@@ -1,5 +1,7 @@
 # Pacman
 
+### Alap kapcsolók
+
 | Művelet | parancs | Leírás |
 | :------ | :------ | :----- |
 | rendszer frissítése | sudo pacman -Syu | Sy - csomagtárolók frissítése<br/>u - frissíti az elavult csomagokat |
@@ -25,10 +27,21 @@
 
 ---
 
-# Speciális kapcsolók
+### Speciális kapcsolók
 
 | Művelet | Parancs | Leírás |
 | :------ | :------ | :----- |
+| telepít egy csomagot, ha még nincs telepítve,vagy ha új verzió érhető el | sudo pacman -S --needed achiso | felesleges újratelepítések esetére |
+| frissíti a rendszert, de az ignore után megadott csomagot kihagyja a frissítésből | sudo pacman -Syu --ignore linux-zen | problémás csomagok esetén használjuk |
+| csomag letöltése telepítés nélkül | sudo pacman -Sw archiso | hasznos lehet a csomag letöltése későbbi telepítés céljából |
+| csomag eltávolítása a függőségek figyelembe vétele nélkül | sudo pacman -Rdd archiso |  |
+| csomag megjelölése telepítettként | sudo pacman -D --asexplicit archiso | függőségként nem lesz kezelve (hasznos az árva csomagok kezelésében) |
+
+## Speciális beállítások
+
+### pacman.conf
+
+|  |  |  |
 
 ---
 
