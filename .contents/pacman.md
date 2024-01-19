@@ -21,7 +21,7 @@
 | csoportok listája | sudo pacman -Sg csoport neve | például: sudo pacman -Sg plasma |
 | saját csomag telepítése | sudo pacman -U csomagnév-x86_64.pkg.tar.zst |  |
 | nem használt függőségek listázása | sudo pacman -Qdt |  |
-| nem használt függőségek eltávolítása | sudo pacman -Rns ${pacman -Qdtq} | jelentős lemezterületet szabadíthat fel |
+| nem használt függőségek eltávolítása | sudo pacman -Rns $(pacman -Qdtq) | jelentős lemezterületet szabadíthat fel |
 | csomagok intergritásának ellenőrzése | sudo pacman -Qk steam |  |
 | csomagok intergritásának részletesebb ellenőrzése | sudo pacman -Qkk steam |  |
 
