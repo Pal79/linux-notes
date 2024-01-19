@@ -37,12 +37,6 @@
 | csomag eltávolítása a függőségek figyelembe vétele nélkül | sudo pacman -Rdd archiso |  |
 | csomag megjelölése telepítettként | sudo pacman -D --asexplicit archiso | függőségként nem lesz kezelve (hasznos az árva csomagok kezelésében) |
 
-## Speciális beállítások
-
-### pacman.conf
-
-|  |  |  |
-
 ---
 
 [Vissza](../README.md)
