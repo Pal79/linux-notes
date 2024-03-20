@@ -133,6 +133,11 @@
 				<a href=".contents/autoremove.md">Autoremove</a>
 			</td>
 		</tr>
+		<tr>
+			<td>
+				<a href=".contents/ufw.md">Ufw</a>
+			</td>
+		</tr>
 	</tbody>
 </table>
 
