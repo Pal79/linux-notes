@@ -128,7 +128,6 @@
 				<a href=".contents/touchscreen.md">Érintőkijelző beállítás</a>
 			</td>
 		</tr>
-		
 		<tr>
 			<td>
 				<a href=".contents/autoremove.md">Autoremove</a>
