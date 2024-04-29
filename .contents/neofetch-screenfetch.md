@@ -22,14 +22,22 @@ sudo pacman -S neofetch
 sudo su
 ```
 
+> ubuntu:
+
 ```
 echo neofetch >> /etc/bash.bashrc
 ```
 
-> vagy (pl. manjaro-nál)
+> manjaro:
 
 ```
-echo neofetch >> ~/.zshrc
+sudo nano ~/.zshrc
+```
+
+> fedora:
+
+```
+sudo nano ~/.bashrc
 ```
 
 ---
