@@ -6,8 +6,8 @@
 
 # Swapfile
 
-### ext4
-
+|     | ext4 |
+| :-- | :--- |
 | 1GB swapfile létrehozása | ```sudo fallocate -l 1G /swap.img``` |
 | jogosultságok beállítása | ```sudo chmod 600 /swap.img``` |
 | swapfile formázása | ```sudo mkswap /swap.img``` |
