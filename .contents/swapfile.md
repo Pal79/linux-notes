@@ -31,29 +31,12 @@
 
 > A swappiness egy kernel, mely meghatározza, hogy a rendszer milyen gyakran használja a csereterületet. Paraméter 0 és 100 között lehet. A 0-hoz közeli érték eredménye a swap terület használatának elkerülése, míg a magasabb érték ennek ellenkezője. Alapértelmezett beállítás: 60
 
-> swappiness érték megtekintése
-
-```
-cat /proc/sys/vm/swappiness
-```
-
-> érték átállítása:
-
-```
-sudo sysctl vm.swappiness=30
-```
-
-> hogy az érték újraindítás után is megmaradjon
-
-```
-sudo nano /etc/sysctl.conf
-```
-
-> hozzáfűzni a fájlhoz:
-
-```
-vm.swappiness=30
-```
+| Leírás | Parancs |
+| :----- | :------ |
+| swappiness érték megtekintése | cat /proc/sys/vm/swappiness |
+| érték átállítása | sudo sysctl vm.swappiness=30 |
+| hogy az érték újraindítás után is megmaradjon | sudo nano /etc/sysctl.conf |
+|  hozzáfűzni a fájlhoz: | vm.swappiness=30 |
 
 > Érdemes apró lépésenként csökkenteni vagy növelni az értéket az optimális érték megtalálásához.
 
@@ -61,29 +44,12 @@ vm.swappiness=30
 
 ### Swap fájl törlése
 
-> swapfile deaktiválása:
-
-```
-sudo swapoff -v /swapfile
-```
-
-> fstab-ból a swap törlése:
-
-```
-sudo nano /etc/fstab
-```
-
-> ezt a sort kell törölni:
-
-```
-/swapfile	none	swap	sw	0	0
-```
-
-> swapfile törlése:
-
-```
-sudo rm -f /swapfile
-```
+| Leírás | Parancs |
+| :----- | :------ |
+| swapfile deaktiválása | sudo swapoff -v /swap.img |
+| törlés az fstab-ból | sudo nano /etc/fstab |
+|  ezt a sort kell törölni: | /swap.img	swap	swap	defaults	0	0 |
+| swapfile törlése | sudo rm -f /swap.img |
 
 ---
 
