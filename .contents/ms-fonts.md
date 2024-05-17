@@ -4,39 +4,11 @@
 
 ---
 
-### dedian rendszereken
-
-```
-sudo apt install ttf-mscorefonts-installer
-```
-
----
-
-### arch redszereken
-
-1. csomagok frissítése
-
-```
-sudo pacman -Syu
-```
-
-> ha rég volt frissítve a rendszer, akkor szükség lehet egy teljes adatbázis letőltésre
-
-```
-sudo pacman -Syyu
-```
-
-2. AUR engedélyezése
-
-```
-sudo sed -Ei '/EnableAUR/s/^#//' /etc/pamac.conf
-```
-
-3. microsoft betűtípusok telepítése
-
-```
-pamac build ttf-ms-fonts
-```
+|      | Ubuntu | Manjaro |
+| :--- | :----- | :------ |
+| csomagok frissítése | ```sudo apt update``` | ```sudo pacman -Syu```<br>ha rég volt frissítve<br>```sudo pacman -Syyu``` |
+| AUR engedélyezése | ---- | ```sudo sed -Ei '/EnableAUR/s/^#//' /etc/pamac.conf``` |
+| Telepítés | ```sudo apt install ttf-mscorefonts-installer``` | ```pamac build ttf-ms-fonts``` |
 
 ---
 
