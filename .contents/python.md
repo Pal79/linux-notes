@@ -16,7 +16,7 @@
 |  |  |  |
 | virtualenv telepítése | sudo apt install python3-venv | sudo pacman -S python-virtualenv |
 | Virtuális környezet léterhozása | python3 -m venv .venv | python -m venv .venv |
-| Virtuális környezet aktiválása | | source .venv/bin/activate | source .venv/bin/activate |
+| Virtuális környezet aktiválása | source .venv/bin/activate | source .venv/bin/activate |
 | Virtuális környezet deaktiválása | deactivate | deactivate |
 |  |  |  |
 | Csomag telepítése virtuális környezetbe | pip install packagename | pip install packagename |
