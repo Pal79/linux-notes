@@ -4,100 +4,26 @@
 
 ---
 
-### swapfile létrehozása ext4 partíción:
+# Swapfile
 
-> ebben a példában egy 1 gigabájtos fájlt hozok létre:
-   > értelemszerűen az 1G -> lehet 16G is vagy egyéb...
+|     | ext4 |
+| :-- | :--- |
+| 1GB swapfile létrehozása | sudo fallocate -l 1G /swap.img |
+|  jogosultságok beállítása | sudo chmod 600 /swap.img |
+| swapfile formázása | sudo mkswap /swap.img |
+| swapfile használatának engedélyezése | sudo swapon /swap.img |
+| swapfile felvétele az fstab-ba | sudo nano /etc/fstab |
+|  beírni a következőket a fájl végére: | /swap.img	swap	swap	defaults	0	0 |
+| swapfile ellenőrzése | sudo swapon --show |
 
-```
-sudo fallocate -l 1G /swapfile
-```
-
-> jogosultságok beállítása:
-
-```
-sudo chmod 600 /swapfile
-```
-
-> swapfile formázása:
-
-```
-sudo mkswap /swapfile
-```
-
-> swapfile használatának engedélyezése:
-
-```
-sudo swapon /swapfile
-```
-
-> swapfile felvétele az fstab-ba:
-
-```
-sudo nano /etc/fstab
-```
-
-> beírni a következőket a fájl végére:
-
-```
-/swapfile	swap	swap	defaults	0	0
-```
-
-> vagy
-
-```
-/swapfile	none	swap	sw	0	0
-```
-
-> swapfile ellenőrzése:
-
-```
-sudo swapon --show
-```
-
-### swapfile létrehozása btrfs partíción:
-
-> belépés root-ként
-
-```
-sudo su
-```
-
-> subvolume létrhozása swap néven
-
-```
-btrfs subvolume create /swap
-```
-
-> ebben a példában egy 4GB-os swapfile létrehozása
-
-```
-btrfs filesystem mkswapfile --size 4g --uuid clear /swap/swapfile
-```
-
-> swapfile használatának engedélyezése
-
-```
-swapon /swap/swapfile
-```
-
-> swapfile felvétele az fstab-ba:
-
-```
-sudo nano /etc/fstab
-```
-
-> beírni a következőket a fájl végére:
-
-```
-/swap/swapfile	swap	swap	defaults	0	0
-```
-
-> vagy
-
-```
-/swap/swapfile	none	swap	sw	0	0
-```
+|     | btrfs |
+| :-- | :---- |
+| belépés root-ként | sudo su |
+| subvolume létrhozása swap néven | btrfs subvolume create /swap |
+| 4GB-os swapfile létrehozása | btrfs filesystem mkswapfile --size 4g --uuid clear /swap/swapfile |
+| swapfile használatának engedélyezése | swapon /swap/swapfile |
+| swapfile felvétele az fstab-ba | sudo nano /etc/fstab |
+|  beírni a következőket a fájl végére: | /swap/swapfile	swap	swap	defaults	0	0 |
 
 ---
 
@@ -105,7 +31,7 @@ sudo nano /etc/fstab
 
 > A swappiness egy kernel, mely meghatározza, hogy a rendszer milyen gyakran használja a csereterületet. Paraméter 0 és 100 között lehet. A 0-hoz közeli érték eredménye a swap terület használatának elkerülése, míg a magasabb érték ennek ellenkezője. Alapértelmezett beállítás: 60
 
-> sappiness érték megtekintése
+> swappiness érték megtekintése
 
 ```
 cat /proc/sys/vm/swappiness
