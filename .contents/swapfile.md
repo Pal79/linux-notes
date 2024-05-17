@@ -8,27 +8,22 @@
 
 ### ext4
 
-> 1GB swapfile létrehozása: ```sudo fallocate -l 1G /swap.img```
-
-> jogosultságok beállítása: ```sudo chmod 600 /swap.img```
-
-> swapfile formázása: ```sudo mkswap /swap.img```
-
-> swapfile használatának engedélyezése: ```sudo swapon /swap.img```
-
-> swapfile felvétele az fstab-ba: ```sudo nano /etc/fstab```
-   > beírni a következőket a fájl végére: ```/swap.img	swap	swap	defaults	0	0```
-
-> swapfile ellenőrzése: ```sudo swapon --show```
+| 1GB swapfile létrehozása | ```sudo fallocate -l 1G /swap.img``` |
+| jogosultságok beállítása | ```sudo chmod 600 /swap.img``` |
+| swapfile formázása | ```sudo mkswap /swap.img``` |
+| swapfile használatának engedélyezése | ```sudo swapon /swap.img``` |
+| swapfile felvétele az fstab-ba | ```sudo nano /etc/fstab``` |
+|  beírni a következőket a fájl végére: | ```/swap.img	swap	swap	defaults	0	0``` |
+| swapfile ellenőrzése | ```sudo swapon --show``` |
 
 |     | btrfs |
 | :-- | :---- |
-| belépés root-ként | sudo su |
-| subvolume létrhozása swap néven | btrfs subvolume create /swap |
-| 4GB-os swapfile létrehozása | btrfs filesystem mkswapfile --size 4g --uuid clear /swap/swapfile |
-| swapfile használatának engedélyezése | swapon /swap/swapfile |
-| swapfile felvétele az fstab-ba | sudo nano /etc/fstab |
-|  beírni a következőket a fájl végére: | /swap/swapfile	swap	swap	defaults	0	0 |
+| belépés root-ként | ```sudo su``` |
+| subvolume létrhozása swap néven | ```btrfs subvolume create /swap``` |
+| 4GB-os swapfile létrehozása | ```btrfs filesystem mkswapfile --size 4g --uuid clear /swap/swapfile``` |
+| swapfile használatának engedélyezése | ```swapon /swap/swapfile``` |
+| swapfile felvétele az fstab-ba | ```sudo nano /etc/fstab``` |
+|  beírni a következőket a fájl végére: | ```/swap/swapfile	swap	swap	defaults	0	0``` |
 
 ---
 
@@ -38,10 +33,10 @@
 
 | Leírás | Parancs |
 | :----- | :------ |
-| swappiness érték megtekintése | cat /proc/sys/vm/swappiness |
-| érték átállítása | sudo sysctl vm.swappiness=30 |
-| hogy az érték újraindítás után is megmaradjon | sudo nano /etc/sysctl.conf |
-|  hozzáfűzni a fájlhoz: | vm.swappiness=30 |
+| swappiness érték megtekintése | ```cat /proc/sys/vm/swappiness``` |
+| érték átállítása | ```sudo sysctl vm.swappiness=30``` |
+| hogy az érték újraindítás után is megmaradjon | ```sudo nano /etc/sysctl.conf``` |
+|  hozzáfűzni a fájlhoz: | ```vm.swappiness=30``` |
 
 > Érdemes apró lépésenként csökkenteni vagy növelni az értéket az optimális érték megtalálásához.
 
@@ -51,10 +46,10 @@
 
 | Leírás | Parancs |
 | :----- | :------ |
-| swapfile deaktiválása | sudo swapoff -v /swap.img |
-| törlés az fstab-ból | sudo nano /etc/fstab |
-|  ezt a sort kell törölni: | /swap.img	swap	swap	defaults	0	0 |
-| swapfile törlése | sudo rm -f /swap.img |
+| swapfile deaktiválása | ```sudo swapoff -v /swap.img``` |
+| törlés az fstab-ból | ```sudo nano /etc/fstab``` |
+|  ezt a sort kell törölni: | ```/swap.img	swap	swap	defaults	0	0``` |
+| swapfile törlése | ```sudo rm -f /swap.img``` |
 
 ---
 
