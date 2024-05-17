@@ -4,20 +4,10 @@
 
 ---
 
-### kellemetlen rendszerhangok, sípolások kikapcsolása
+### kellemetlen rendszerhangok, sípolások kikapcsolása arch rendszeren
 
-> fájl módosítása, létrehozása
-
-```
-sudo nano /etc/modprobe.d/nobeep.conf
-```
-
-> ezeket a sorokat kell beleírni
-
-```
-blacklist pcspkr
-blacklist snd_pcsp
-```
+| fájl módosítása, létrehozása | ```sudo nano /etc/modprobe.d/nobeep.conf``` |
+|  ezeket a sorokat kell beleírni: | ```blacklist pcspkr```<br>```blacklist snd_pcsp``` |
 
 ---
 
