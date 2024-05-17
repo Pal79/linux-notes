@@ -6,23 +6,15 @@
 
 # Swapfile
 
-|     | ext4 |
-| :-- | :--- |
-| 1GB swapfile létrehozása | sudo fallocate -l 1G /swap.img |
-|  jogosultságok beállítása | sudo chmod 600 /swap.img |
-| swapfile formázása | sudo mkswap /swap.img |
-| swapfile használatának engedélyezése | sudo swapon /swap.img |
-| swapfile felvétele az fstab-ba | sudo nano /etc/fstab |
-|  beírni a következőket a fájl végére: | /swap.img	swap	swap	defaults	0	0 |
-| swapfile ellenőrzése | sudo swapon --show |
+### ext4
 
-=colwidth 1 2 4
-=colalign r c l
-=csv
-"Column A","Column B","Column C"
-17,Blue,This is a comment
-29,Red,Another comment
-=endcsv
+> 1GB swapfile létrehozása: ```sudo fallocate -l 1G /swap.img```
+> jogosultságok beállítása: ```sudo chmod 600 /swap.img```
+> swapfile formázása: ```sudo mkswap /swap.img```
+> swapfile használatának engedélyezése: ```sudo swapon /swap.img```
+> swapfile felvétele az fstab-ba: ```sudo nano /etc/fstab```
+   > beírni a következőket a fájl végére: ```/swap.img	swap	swap	defaults	0	0```
+> swapfile ellenőrzése: ```sudo swapon --show```
 
 |     | btrfs |
 | :-- | :---- |
