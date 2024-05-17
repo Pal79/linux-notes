@@ -9,11 +9,16 @@
 ### ext4
 
 > 1GB swapfile létrehozása: ```sudo fallocate -l 1G /swap.img```
+
 > jogosultságok beállítása: ```sudo chmod 600 /swap.img```
+
 > swapfile formázása: ```sudo mkswap /swap.img```
+
 > swapfile használatának engedélyezése: ```sudo swapon /swap.img```
+
 > swapfile felvétele az fstab-ba: ```sudo nano /etc/fstab```
    > beírni a következőket a fájl végére: ```/swap.img	swap	swap	defaults	0	0```
+
 > swapfile ellenőrzése: ```sudo swapon --show```
 
 |     | btrfs |
