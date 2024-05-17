@@ -4,6 +4,8 @@
 
 ---
 
+# Java telepítése és beállítása 
+
 > jelen esetben a 17-es java telepítése és beállítása
 
 |     | Ubuntu |
