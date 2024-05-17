@@ -8,7 +8,7 @@
 
 |     | Ubuntu |
 | :-- | :----- |
-| Chorme kulcs letöltése | ```wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -``` |
+| Chorme kulcs letöltése | ```wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub \| sudo apt-key add -``` |
 | Chrome repo hozzáadás | ```sudo add-apt-repository "deb http://dl.google.com/linux/chrome/deb/ stable main"``` |
 | Csomagok frissítése | ```sudo apt update``` |
 | Telepítés | ```sudo apt install google-chrome-stable``` |
