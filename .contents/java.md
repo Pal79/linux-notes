@@ -4,8 +4,10 @@
 
 ---
 
-# Java telepítése és beállítása 
+# Java telepítése és beállítása
 
+> A java LTS verziói: ```8 - 11 - 17```
+> 
 > jelen esetben a 17-es java telepítése és beállítása
 
 |     | Ubuntu |
