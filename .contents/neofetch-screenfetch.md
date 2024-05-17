@@ -4,41 +4,13 @@
 
 ---
 
-> neofetch telepítése debian rendszereken:
+## neofetch
 
-```
-sudo apt install neofetch
-```
-
-> neofetch telepítése arch rendszereken:
-
-```
-sudo pacman -S neofetch
-```
-
-> automatikus indítás beállítása:
-
-```
-sudo su
-```
-
-> ubuntu:
-
-```
-echo neofetch >> /etc/bash.bashrc
-```
-
-> manjaro:
-
-```
-sudo nano ~/.zshrc
-```
-
-> fedora:
-
-```
-sudo nano ~/.bashrc
-```
+|        | Ubuntu | Majaro | Fedora |
+| :----- | :----- | :----- | :----- |
+| telepítés | ```sudo apt install neofetch``` | ```sudo pacman -S neofetch``` | ```sudo dnf install neofetch``` |
+| automatikus indítás beállítása | ```sudo nano /etc/bash.bashrc``` | ```sudo nano ~/.zshrc``` | ```sudo nano ~/.bashrc``` |
+|  a féjl végére beírni | ```neofetch``` | ```neofetch``` | ```neofetch``` |
 
 ---
 
