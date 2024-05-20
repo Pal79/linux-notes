@@ -10,3 +10,7 @@
 | Tomcat indítása | ```sudo /opt/tomcat/bin/startup.sh``` |
 | Ellenőrzés | ```localhost:8080``` |
 | Tomcat leállítása | ```sudo /opt/tomcat/bin/shutdown.sh``` |
+
+---
+
+[Vissza](../README.md)
