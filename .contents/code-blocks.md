@@ -1,3 +1,8 @@
+<h3 align="center">
+<img src="../.pictures/code-blocks.png" alt="code blocks" width=64 />
+</h3>
+
+
 ---
 
 # Code Blocks
