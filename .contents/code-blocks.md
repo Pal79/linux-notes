@@ -18,3 +18,6 @@
 | code blocks tartozékok telepítése | ```sudo apt install codeblocks-contrib``` |
 
 ---
+
+
+[Vissza](../README.md)
