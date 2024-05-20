@@ -1,3 +1,7 @@
+<h3 align="center">
+<img src="../.pictures/gimp.png" alt="gimp" width=64 />
+</h3>
+
 ---
 
 # Gimp
