@@ -102,9 +102,14 @@
 			</td>
 		</tr>
 
-  <tr>
+		<tr>
 			<td>
 				<a href=".contents/code-blocks.md">code blocks</a>
+			</td>
+		</tr>
+  		<tr>
+			<td>
+				<a href=".contents/gimp.md">gimp</a>
 			</td>
 		</tr>
 	</tbody>
