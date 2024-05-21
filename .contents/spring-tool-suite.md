@@ -4,8 +4,8 @@
 
 ---
 
-| Leírás | Parancs |
-| :----- | :------ |
+| Művelet | Leírás |
+| :------ | :----- |
 | Letöltés | ```https://www.spring.io/``` |
 | Letöltött fájl ellenőrzése | ```cd Downloads/```<br>```ls``` |
 | Letöltött fájl áthelyezése | ```sudo mv downloaded_file.tar.gz /opt``` |
