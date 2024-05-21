@@ -4,91 +4,25 @@
 
 ---
 
-## eclipse telepítése debian rendszerekre
+# Eclipse
 
-### snap telepítés
-
-> csomagok frissítése
-
-```
-sudo apt update
-```
-
-> snap telepítése (ha nincs snap)
-
-```
-sudo apt install snapd
-```
-
-> snap bekapcsolása (ha nem volt snap)
-
-```
-sudo systemctl enable snapd --now
-```
-
-> eclipse telepítése
-
-```
-sudo snap install eclipse --classic
-```
-
-### tar telepítés
-
-> Letöltés
-
-```
-https://www.eclipse.org/downloads/packages/
-```
-
-> Letöltött fájl ellenőrzése
-
-```
-cd Downloads/
-```
-
-```
-ls
-```
-
-> Letöltött fájl áthelyezése:
-
-``` {.bash}
-sudo mv downloaded_file.tar.gz /opt
-```
-
-```
-cd /opt
-```
-
-> Letöltött fájl kicsomagolás
-
-```
-sudo tar -xvf downloaded-file.tar.gz
-```
-
----
-
-> Indító ikon létrehozása
-
-```
-sudo nano /usr/share/applications/eclipse.desktop
-```
-
-> Írd ezt a fájlba ->
-
-```
-[Desktop Entry]
-Name=Eclipse
-Comment=Eclipse
-Exec=/opt/eclipse/eclipse
-Icon=/opt/eclipse/icon.xpm
-StartupNotify=true
-Terminal=false
-Type=Application
-Categories=Development;IDE;Java;
-```
-
-> majd mentés: ctrl+x -> y -> [enter]
+| Telepítési mód | Művelet | Leírás |
+| :------------- | :------ | :----- |
+| snap telepítés |  |  |
+|  | csomagok frissítése | ```sudo apt update``` |
+|  | snap telepítése (ha nincs snap) | ```sudo apt install snapd``` |
+|  | snap bekapcsolása (ha nem volt snap) | ```sudo systemctl enable snapd --now``` |
+|  | Telepítés | ```sudo snap install eclipse --classic``` |
+|  |  |  |
+| tar telepítés |  |  |
+|  | Letöltés | ```https://www.eclipse.org/downloads/packages/``` |
+|  | Letöltött fájl ellenőrzése | ```cd Downloads/```<br>```ls``` |
+|  | Letöltött fájl áthelyezése | ```sudo mv downloaded_file.tar.gz /opt``` |
+|  | Belépés a könyvtárba |```cd /opt``` |
+|  | Letöltött fájl kicsomagolás | ```sudo tar -xvf downloaded-file.tar.gz``` |
+|  | Indító ikon létrehozása | ```sudo nano /usr/share/applications/eclipse.desktop``` |
+|  | Írd ezt a fájlba: | ```[Desktop Entry]```<br>```Name=Eclipse```<br>```Comment=Eclipse```<br>```Exec=/opt/eclipse/eclipse```<br>```Icon=/opt/eclipse/icon.xpm```<br>```StartupNotify=true```<br>```Terminal=false```<br>```Type=Application```<br>```Categories=Development;IDE;Java;``` |
+|  | majd mentés: | ```Ctrl+x -> y -> [enter]``` |
 
 ---
 
