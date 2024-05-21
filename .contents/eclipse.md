@@ -9,7 +9,7 @@
 | Telepítési mód | Művelet | Leírás |
 | :------------- | :------ | :----- |
 | snap telepítés |  |  |
-|  | csomagok frissítése | ```{.bash}sudo apt update``` |
+|  | csomagok frissítése | ```sudo apt update``` |
 |  | snap telepítése (ha nincs snap) | ```sudo apt install snapd``` |
 |  | snap bekapcsolása (ha nem volt snap) | ```sudo systemctl enable snapd --now``` |
 |  | Telepítés | ```sudo snap install eclipse --classic``` |
